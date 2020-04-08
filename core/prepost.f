@@ -1091,7 +1091,7 @@ c-----------------------------------------------------------------------
       data        slash,dot  / '/' , '.' /
 
       integer nopen(99,2)
-      save    nopen
+      common /RES_WANT/ nopen
       data    nopen  / 198*0 /
 
       call blank(fname,132)      !  zero out for byte_open()
