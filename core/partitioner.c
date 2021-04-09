@@ -5,7 +5,12 @@
 #endif
 
 #define MAXNV 8 /* maximum number of vertices per element */
-typedef struct {long long vtx[MAXNV]; long long eid; int proc;} edata;
+typedef struct{
+  long long vtx[MAXNV];
+  long long eid;
+  int proc;
+  uint seq;
+} edata;
 
 
 #ifdef PARMETIS
