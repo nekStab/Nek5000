@@ -4,12 +4,7 @@ c     Note: Keys have to be in captial letters
 c
       integer PARDICT_NKEYS
 
-<<<<<<< HEAD
       parameter(PARDICT_NKEYS = 122)
-=======
-      parameter(PARDICT_NKEYS = 117)
->>>>>>> parent of 1c5ebe4 (allow setting initial time step size from par file (#800))
-
       character*132 pardictkey(PARDICT_NKEYS)
       data
      &  pardictkey(1)  / 'GENERAL' /
