@@ -121,11 +121,8 @@ c
      &  pardictkey(115) / 'GENERAL:CONSTFLOWRATE' /
      &  pardictkey(116) / 'GENERAL:MEANVELOCITY' /
      &  pardictkey(117) / 'GENERAL:MEANVOLUMETRICFLOW' /
-<<<<<<< HEAD
      &  pardictkey(118) / 'GENERAL:INITIALDT' /
      &  pardictkey(119) / 'VELOCITY:BOUNDARYTYPEMAP' /
      &  pardictkey(120) / 'TEMPERATURE:BOUNDARYTYPEMAP' /
      &  pardictkey(121) / 'SCALAR%%:BOUNDARYTYPEMAP' /
      &  pardictkey(122) / 'MESH:BOUNDARYIDMAP' /
-=======
->>>>>>> parent of 1c5ebe4 (allow setting initial time step size from par file (#800))
